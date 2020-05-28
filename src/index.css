@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.card-body {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.react-card-front,
+.react-card-back {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: aliceblue;
+}
+
+.react-card-back {
+  justify-content: space-between !important;
+  min-height: 100px !important;
+}
